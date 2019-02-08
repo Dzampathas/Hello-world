@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.more {
+  background: #65738e;
+  margin-top: 40px;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-size: calc(5px + 1.5vmin);
+  transition: 0.2s;
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  user-select: none;
+}
+.more:hover {
+  height: 50px;
+  width: 50px;
+  background: #b2d2ea;
+  font-size: calc(30px + 1.5vmin);
+  transform: rotateZ(180deg);
+}
+
+.new-wisdom {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  padding: 3px 2px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  box-align: top;
+  font-size: calc(5px + 1vmin);
+  transition: background 0.2s;
+  cursor: pointer;
+  display: block;
+}
+
+hr {
+  width: 80vw;
+  border-color: #65738e;
+}
